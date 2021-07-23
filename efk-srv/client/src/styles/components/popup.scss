@@ -1,0 +1,26 @@
+.popup {
+  width: 50%;
+  height: fit-content;
+  position: fixed;
+  z-index: 100;
+  top: calc(8vh);
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.popup > img{
+  display: block;
+  width: 75%;
+  height: 75%;
+}
+
+.popup > div{
+  display: block;
+  font-size: 2.5em;
+  color:aliceblue;
+  margin-bottom: 10px;
+}

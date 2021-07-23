@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  background-position: center 180px;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+
+// .wrapper{
+//   width: auto;
+//   max-width: 1440px;
+//   margin: 0 auto;
+//   min-height: 95vh;
+// }
+.hidden {
+  display: none;
+}
+
+.none {
+  box-sizing: border-box;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@import './components/header.scss';
+@import './components/footer.scss';
+@import './components/burger-menu.scss';
+@import './components/mode-switch.scss';
+@import './components/cards-container.scss';
+@import './components/main.scss';
+@import './components/popup.scss';
+@import './components/admin.scss';
+@import './components/admin-cards.scss';
+
+
+// @media (max-width: 1430px) {
+//   .wrapper {
+//       max-width: 1050px;
+//   }
+//   };
+  
+//   @media (max-width: 1080px) {
+//   .wrapper {
+//       max-width: 700px;
+//   }
+//   };
+  
+//   @media (max-width: 730px) {
+//   .wrapper {
+//       max-width: 350px;
+//   }
+//   };

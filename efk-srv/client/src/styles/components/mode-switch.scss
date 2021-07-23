@@ -1,0 +1,123 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.switch-container {
+  position: relative;
+  display: block;
+}
+
+.switch, .switch-input {
+  position: absolute;
+  top: 0;
+}
+
+.switch-input {
+  left: 0;
+  opacity: 0;
+}
+
+.switch {
+  right: 0;
+  display: block;
+  display: inline-block;
+  // vertical-align: top;
+  width: 120px;
+  height: 40px;
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 -1px #fff, inset 0 1px 1px rgb(0 0 0 / 5%);
+  cursor: pointer;
+  background-image: linear-gradient(180deg,#eee,#fff 25px);
+
+}
+
+.switch-label {
+  position: relative;
+  display: block;
+  height: inherit;
+  font-size: 18px;
+  line-height: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(40deg,#ffd86f,#fc6262);
+  border-radius: inherit;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 12%), inset 0 0 2px rgb(0 0 0 / 15%);
+  transition: .15s ease-out;
+}
+
+.switch-label:after, .switch-label:before {
+  position: absolute;
+  top: 0;
+  transition: inherit;
+}
+
+.switch-label:before {
+  content: attr(data-off);
+  right: 15px;
+  color: #fff;
+  text-shadow: 0 1px hsl(0deg 0% 100% / 50%);
+}
+.switch-label:after {
+  content: attr(data-on);
+  left: 15px;
+  color: #fff;
+  text-shadow: 0 1px rgb(0 0 0 / 20%);
+  opacity: 0;
+}
+
+.switch-input:checked~.switch-label {
+  background: linear-gradient(40deg,#00bf82,#0099ae);
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 15%), inset 0 0 3px rgb(0 0 0 / 20%);
+}
+
+.switch-input:checked~.switch-label:before {
+  opacity: 0;
+}
+
+.switch-input:checked~.switch-label:after {
+  opacity: 1;
+}
+
+.switch-handle {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 33px;
+  height: 33px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 20%);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(40%,#fff),to(#f0f0f0));
+  background-image: linear-gradient(180deg,#fff 40%,#f0f0f0);
+  transition: left .15s ease-out;
+}
+
+.switch-handle:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: inset 0 1px rgb(0 0 0 / 2%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#eee),to(#fff));
+  background-image: linear-gradient(180deg,#eee,#fff);
+}
+
+.switch-input:checked~.switch-handle {
+  left: 80px;
+  box-shadow: -1px 1px 5px rgb(0 0 0 / 20%);
+}

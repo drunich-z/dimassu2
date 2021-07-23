@@ -1,0 +1,67 @@
+<img src="" alt="game result">
+<span> </span>
+
+<div class="form-row">
+    
+</div>
+
+<img src="" alt="">
+
+<div id="user" class="user">USER</div>
+
+<form action="submit" class="login"></form>
+
+<form id="form-login" action="submit" class="form-login">
+  <div class="login-header">LOGIN</div>
+  <div class="login-row">
+    <label id="label-login" for="input-login">login:</label>
+    <input name="input-login" id="input-login" type="text" class="input-login" placeholder="LOGIN">
+  </div>
+  <div class="login-row">
+    <label id="label-login" for="input-pass">password:</label>
+    <input name="input-pass" id="input-pass" type="text" class="input-pass" placeholder="PASSWORD">
+  </div>
+  <div class="login-header">
+    <button id="btnCancel" class="btn-ok">OK</button>
+    <button id="btnOk" class="btn-cancel">Cancel</button>
+  </div>
+</form>
+
+
+<div id="admin-category-card-id" class="admin-category-card" data-id="id">
+  <div class="form-row">
+    <label id="label-word" for="input-category"></label>
+    <input id="category-id" name="category-id" type="text" class="input-category" disabled>
+  </div>
+  <div class="category-words-id">words: 8</div>
+  <div class="category-btn-container-id">
+    <button class="btn-update-category-id category-btn">Update</button>
+    <button class="btn-add-word-category-id category-btn">Add word</button>
+    <button class="btn-delete-category-id category-btn">Delete</button>
+  </div>
+</div>
+
+<div id="admin-category-card-${cards[i].id}" class="admin-category-card" data-id="${cards[i].id}">
+  <div class="input-category-container">
+    <label id="label-word" for="input-category"></label>
+    <input id="category-${cards[i].id}" 
+           name="category-${cards[i].id}" 
+           type="text" 
+           class="input-category" 
+           value="${cards[i].name}" >
+  </div>
+  <a href="#" class="category-words" data-id="${cards[i].id}">words: 8</a>
+  <div class="category-btn-container-${cards[i].id}">
+    <button class="btn-update-category   
+            category-btn" data-id="${cards[i].id}">Update</button>
+    <button class="btn-add-word-category 
+            category-btn" data-id="${cards[i].id}">Add word</button>
+    <button class="btn-delete-category 
+            category-btn" data-id="${cards[i].id}">Delete</button>
+  </div>
+</div>
+
+<div class="admin">
+  <img src="" alt="">
+</div>
+<h2>Create new category</h2>

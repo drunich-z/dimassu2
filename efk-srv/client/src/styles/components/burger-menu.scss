@@ -1,0 +1,222 @@
+.burger-menu_button {
+  position: absolute;
+  top: 3%;
+  z-index: 30;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.4s;
+  }
+.burger-menu_button:hover .burger-menu_lines {
+  filter: brightness(0.7);
+}
+
+.burger-menu_button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.burger-menu_lines::before,
+.burger-menu_lines::after,
+.burger-menu_lines {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: linear-gradient(40deg,#ffd86f,#fc6262);
+  border-radius: 3px;
+  transition: 0.4s;
+}
+
+.burger-menu.green .burger-menu_lines,
+.burger-menu.green .burger-menu_lines::before,
+.burger-menu.green .burger-menu_lines::after,
+.burger-menu.green .burger-links {
+  background: linear-gradient(40deg,#00bf82,#0099ae)
+}
+
+.burger-menu_lines {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.burger-menu_lines::before {
+  content: '';
+  top: -12px;
+}
+
+.burger-menu_lines::after {
+  content: '';
+  top: 12px;
+}
+
+.burger-menu.burger-menu_active .burger-menu_lines {
+  background: transparent;
+}
+.burger-menu_active .burger-menu_lines::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.burger-menu_active .burger-menu_lines::after{
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.burger-links {
+  padding-top: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 380px;
+  background: linear-gradient(40deg,#ffd86f,#fc6262);
+  overflow-y: auto;
+  left: -110%;
+  transition: 0.8s;
+}
+
+.burger-menu_active .burger-links {
+  left: 0;
+  transition: 0.4s;
+}
+
+.burger-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 70px;
+  font-size: 22px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #ffffff;
+  transition: 0.3s linear;
+  
+}
+
+.burger-link_active{
+  // color: gold;
+  // text-shadow: 4px 4px 6px rgba(150, 150, 150, 1);
+  // transition: color 1s; 
+  text-decoration: underline;
+  cursor: default;
+}
+
+.burger-link:first-child,
+.burger-link:last-child {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+}
+.burger-link:hover {
+  filter: brightness(0.9);
+  transform: scale(1.1);
+}
+
+.burger-link_active:hover {
+  transform: none;
+  filter: none;
+}
+
+.burger-menu_active .burger-cover {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+  
+.burger-menu {
+  position: relative;
+}
+
+.form-login {
+  // position: absolute;
+  // width: 50%;
+  // height: fit-content;
+  // position: fixed;
+  position: absolute;
+  width: 30%;
+  height: 300px;
+  z-index: 100;
+  top: calc(8vh);
+  left: 25%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.form-login button{
+  margin: 0 30px;
+  width: 35%;
+  height: 40px;
+  border-radius: 5px;
+  border:#FFFFFF 1px solid;
+  color: #FFFFFF;
+}
+
+.btn-ok {
+  background-color: #4FBE79;
+}
+
+.btn-cancel {
+  background-color: #E53935;
+}
+
+.login-header {
+  margin-top: 30px;
+}
+
+.login-row {
+  margin: 20px 30px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
+.login-row input {
+  border: none;
+  width: 80%;
+  height: 40px;
+  font-family: 'Roboto';
+  font-size: 28px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  outline: none;
+
+  color: #000000;
+
+}
+
+.login-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: #4FBE79;
+
+}
+
+
+
+.cover {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.hidden {
+  display: none;
+}
+.notScrollable {
+  overflow: hidden;
+}

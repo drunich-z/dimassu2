@@ -1,0 +1,477 @@
+[
+  [
+    "Action (set A)",
+    "Action (set B)",
+    "Animal (set A)",
+    "Animal (set B)",
+    "Clothes",
+    "Emotions",
+    "Nature",
+    "Food"
+  ],
+  [
+    {
+      "word": "cry",
+      "translation": "плакать",
+      "image": "https://efk-srv.herokuapp.com/media/img/cry.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/cry.mp3",
+      "category": "Action (set A)"
+    },
+    {
+      "word": "dance",
+      "translation": "танцевать",
+      "image": "https://efk-srv.herokuapp.com/media/img/dance.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/dance.mp3",
+      "category": "Action (set A)"
+    },
+    {
+      "word": "dive",
+      "translation": "нырять",
+      "image": "https://efk-srv.herokuapp.com/media/img/dive.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/dive.mp3",
+      "category": "Action (set A)"
+    },
+    {
+      "word": "draw",
+      "translation": "рисовать",
+      "image": "https://efk-srv.herokuapp.com/media/img/draw.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/draw.mp3",
+      "category": "Action (set A)"
+    },
+    {
+      "word": "fish",
+      "translation": "ловить рыбу",
+      "image": "https://efk-srv.herokuapp.com/media/img/fish.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/fish.mp3",
+      "category": "Action (set A)"
+    },
+    {
+      "word": "fly",
+      "translation": "летать",
+      "image": "https://efk-srv.herokuapp.com/media/img/fly.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/fly.mp3",
+      "category": "Action (set A)"
+    },
+    {
+      "word": "hug",
+      "translation": "обнимать",
+      "image": "https://efk-srv.herokuapp.com/media/img/hug.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/hug.mp3",
+      "category": "Action (set A)"
+    },
+    {
+      "word": "jump",
+      "translation": "прыгать",
+      "image": "https://efk-srv.herokuapp.com/media/img/jump.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/jump.mp3",
+      "category": "Action (set A)"
+    }
+  ],
+  [
+    {
+      "word": "open",
+      "translation": "открывать",
+      "image": "https://efk-srv.herokuapp.com/media/img/open.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/open.mp3",
+      "category": "Action (set B)"
+    },
+    {
+      "word": "play",
+      "translation": "играть",
+      "image": "https://efk-srv.herokuapp.com/media/img/play.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/play.mp3",
+      "category": "Action (set B)"
+    },
+    {
+      "word": "point",
+      "translation": "указывать",
+      "image": "https://efk-srv.herokuapp.com/media/img/point.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/point.mp3",
+      "category": "Action (set B)"
+    },
+    {
+      "word": "ride",
+      "translation": "ездить",
+      "image": "https://efk-srv.herokuapp.com/media/img/ride.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/ride.mp3",
+      "category": "Action (set B)"
+    },
+    {
+      "word": "run",
+      "translation": "бегать",
+      "image": "https://efk-srv.herokuapp.com/media/img/run.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/run.mp3",
+      "category": "Action (set B)"
+    },
+    {
+      "word": "sing",
+      "translation": "петь",
+      "image": "https://efk-srv.herokuapp.com/media/img/sing.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/sing.mp3",
+      "category": "Action (set B)"
+    },
+    {
+      "word": "skip",
+      "translation": "пропускать, прыгать",
+      "image": "https://efk-srv.herokuapp.com/media/img/skip.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/skip.mp3",
+      "category": "Action (set B)"
+    },
+    {
+      "word": "swim",
+      "translation": "плавать",
+      "image": "https://efk-srv.herokuapp.com/media/img/swim.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/swim.mp3",
+      "category": "Action (set B)"
+    }
+  ],
+  [
+    {
+      "word": "cat",
+      "translation": "кот",
+      "image": "https://efk-srv.herokuapp.com/media/img/cat.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/cat.mp3",
+      "category": "Animal (set A)"
+    },
+    {
+      "word": "chick",
+      "translation": "цыплёнок",
+      "image": "https://efk-srv.herokuapp.com/media/img/chick.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/chick.mp3",
+      "category": "Animal (set A)"
+    },
+    {
+      "word": "chicken",
+      "translation": "курица",
+      "image": "https://efk-srv.herokuapp.com/media/img/chicken.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/chicken.mp3",
+      "category": "Animal (set A)"
+    },
+    {
+      "word": "dog",
+      "translation": "собака",
+      "image": "https://efk-srv.herokuapp.com/media/img/dog.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/dog.mp3",
+      "category": "Animal (set A)"
+    },
+    {
+      "word": "horse",
+      "translation": "лошадь",
+      "image": "https://efk-srv.herokuapp.com/media/img/horse.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/horse.mp3",
+      "category": "Animal (set A)"
+    },
+    {
+      "word": "pig",
+      "translation": "свинья",
+      "image": "https://efk-srv.herokuapp.com/media/img/pig.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/pig.mp3",
+      "category": "Animal (set A)"
+    },
+    {
+      "word": "rabbit",
+      "translation": "кролик",
+      "image": "https://efk-srv.herokuapp.com/media/img/rabbit.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/rabbit.mp3",
+      "category": "Animal (set A)"
+    },
+    {
+      "word": "sheep",
+      "translation": "овца",
+      "image": "https://efk-srv.herokuapp.com/media/img/sheep.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/sheep.mp3",
+      "category": "Animal (set A)"
+    }
+  ],
+  [
+    {
+      "word": "bird",
+      "translation": "птица",
+      "image": "https://efk-srv.herokuapp.com/media/img/bird.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/bird.mp3",
+      "category": "Animal (set B)"
+    },
+    {
+      "word": "fish",
+      "translation": "рыба",
+      "image": "https://efk-srv.herokuapp.com/media/img/fish1.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/fish.mp3",
+      "category": "Animal (set B)"
+    },
+    {
+      "word": "frog",
+      "translation": "жаба",
+      "image": "https://efk-srv.herokuapp.com/media/img/frog.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/frog.mp3",
+      "category": "Animal (set B)"
+    },
+    {
+      "word": "giraffe",
+      "translation": "жирафа",
+      "image": "https://efk-srv.herokuapp.com/media/img/giraffe.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/giraffe.mp3",
+      "category": "Animal (set B)"
+    },
+    {
+      "word": "lion",
+      "translation": "лев",
+      "image": "https://efk-srv.herokuapp.com/media/img/lion.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/lion.mp3",
+      "category": "Animal (set B)"
+    },
+    {
+      "word": "mouse",
+      "translation": "мышь",
+      "image": "https://efk-srv.herokuapp.com/media/img/mouse.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/mouse.mp3",
+      "category": "Animal (set B)"
+    },
+    {
+      "word": "turtle",
+      "translation": "черепаха",
+      "image": "https://efk-srv.herokuapp.com/media/img/turtle.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/turtle.mp3",
+      "category": "Animal (set B)"
+    },
+    {
+      "word": "dolphin",
+      "translation": "дельфин",
+      "image": "https://efk-srv.herokuapp.com/media/img/dolphin.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/dolphin.mp3",
+      "category": "Animal (set B)"
+    }
+  ],
+  [
+    {
+      "word": "skirt",
+      "translation": "юбка",
+      "image": "https://efk-srv.herokuapp.com/media/img/skirt.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/skirt.mp3",
+      "category": "Clothes"
+    },
+    {
+      "word": "pants",
+      "translation": "брюки",
+      "image": "https://efk-srv.herokuapp.com/media/img/pants.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/pants.mp3",
+      "category": "Clothes"
+    },
+    {
+      "word": "blouse",
+      "translation": "блузка",
+      "image": "https://efk-srv.herokuapp.com/media/img/blouse.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/blouse.mp3",
+      "category": "Clothes"
+    },
+    {
+      "word": "dress",
+      "translation": "платье",
+      "image": "https://efk-srv.herokuapp.com/media/img/dress.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/dress.mp3",
+      "category": "Clothes"
+    },
+    {
+      "word": "boot",
+      "translation": "ботинок",
+      "image": "https://efk-srv.herokuapp.com/media/img/boot.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/boot.mp3",
+      "category": "Clothes"
+    },
+    {
+      "word": "shirt",
+      "translation": "рубашка",
+      "image": "https://efk-srv.herokuapp.com/media/img/shirt.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/shirt.mp3",
+      "category": "Clothes"
+    },
+    {
+      "word": "coat",
+      "translation": "пальто",
+      "image": "https://efk-srv.herokuapp.com/media/img/coat.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/coat.mp3",
+      "category": "Clothes"
+    },
+    {
+      "word": "shoe",
+      "translation": "туфли",
+      "image": "https://efk-srv.herokuapp.com/media/img/shoe.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/shoe.mp3",
+      "category": "Clothes"
+    }
+  ],
+  [
+    {
+      "word": "sad",
+      "translation": "грустный",
+      "image": "https://efk-srv.herokuapp.com/media/img/sad.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/sad.mp3",
+      "category": "Emotions"
+    },
+    {
+      "word": "angry",
+      "translation": "сердитый",
+      "image": "https://efk-srv.herokuapp.com/media/img/angry.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/angry.mp3",
+      "category": "Emotions"
+    },
+    {
+      "word": "happy",
+      "translation": "счастливый",
+      "image": "https://efk-srv.herokuapp.com/media/img/happy.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/happy.mp3",
+      "category": "Emotions"
+    },
+    {
+      "word": "tired",
+      "translation": "уставший",
+      "image": "https://efk-srv.herokuapp.com/media/img/tired.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/tired.mp3",
+      "category": "Emotions"
+    },
+    {
+      "word": "surprised",
+      "translation": "удивлённый",
+      "image": "https://efk-srv.herokuapp.com/media/img/surprised.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/surprised.mp3",
+      "category": "Emotions"
+    },
+    {
+      "word": "scared",
+      "translation": "испуганный",
+      "image": "https://efk-srv.herokuapp.com/media/img/scared.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/scared.mp3",
+      "category": "Emotions"
+    },
+    {
+      "word": "smile",
+      "translation": "улыбка",
+      "image": "https://efk-srv.herokuapp.com/media/img/smile.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/smile.mp3",
+      "category": "Emotions"
+    },
+    {
+      "word": "laugh",
+      "translation": "смех",
+      "image": "https://efk-srv.herokuapp.com/media/img/laugh.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/laugh.mp3",
+      "category": "Emotions"
+    }
+  ],
+  [
+    {
+      "word": "beach",
+      "translation": "пляж",
+      "image": "https://efk-srv.herokuapp.com/media/img/beach.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/beach.mp3",
+      "category": "Nature"
+    },
+    {
+      "word": "desert",
+      "translation": "пустыня",
+      "image": "https://efk-srv.herokuapp.com/media/img/desert.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/desert.mp3",
+      "category": "Nature"
+    },
+    {
+      "word": "forest",
+      "translation": "лес",
+      "image": "https://efk-srv.herokuapp.com/media/img/forest.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/forest.mp3",
+      "category": "Nature"
+    },
+    {
+      "word": "island",
+      "translation": "остров",
+      "image": "https://efk-srv.herokuapp.com/media/img/island.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/island.mp3",
+      "category": "Nature"
+    },
+    {
+      "word": "lake",
+      "translation": "озеро",
+      "image": "https://efk-srv.herokuapp.com/media/img/lake.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/lake.mp3",
+      "category": "Nature"
+    },
+    {
+      "word": "sea",
+      "translation": "море",
+      "image": "https://efk-srv.herokuapp.com/media/img/sea.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/sea.mp3",
+      "category": "Nature"
+    },
+    {
+      "word": "river",
+      "translation": "река",
+      "image": "https://efk-srv.herokuapp.com/media/img/river.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/river.mp3",
+      "category": "Nature"
+    },
+    {
+      "word": "volcano",
+      "translation": "вулкан",
+      "image": "https://efk-srv.herokuapp.com/media/img/volcano.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/volcano.mp3",
+      "category": "Nature"
+    }
+  ],
+  [
+    {
+      "word": "apple",
+      "translation": "яблоко",
+      "image": "https://efk-srv.herokuapp.com/media/img/apple.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/apple.mp3",
+      "category": "Food"
+    },
+    {
+      "word": "banana",
+      "translation": "банан",
+      "image": "https://efk-srv.herokuapp.com/media/img/banana.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/banana.mp3",
+      "category": "Food"
+    },
+    {
+      "word": "bread",
+      "translation": "хлеб",
+      "image": "https://efk-srv.herokuapp.com/media/img/bread.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/bread.mp3",
+      "category": "Food"
+    },
+    {
+      "word": "cake",
+      "translation": "пироженное",
+      "image": "https://efk-srv.herokuapp.com/media/img/cake.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/cake.mp3",
+      "category": "Food"
+    },
+    {
+      "word": "cheese",
+      "translation": "сыр",
+      "image": "https://efk-srv.herokuapp.com/media/img/cheese.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/cheese.mp3",
+      "category": "Food"
+    },
+    {
+      "word": "egg",
+      "translation": "яйцо",
+      "image": "https://efk-srv.herokuapp.com/media/img/egg.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/egg.mp3",
+      "category": "Food"
+    },
+    {
+      "word": "milk",
+      "translation": "молоко",
+      "image": "https://efk-srv.herokuapp.com/media/img/milk.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/milk.mp3",
+      "category": "Food"
+    },
+    {
+      "word": "potato",
+      "translation": "бульба",
+      "image": "https://efk-srv.herokuapp.com/media/img/potato.jpg",
+      "audioSrc": "https://efk-srv.herokuapp.com/media/audio/potato.mp3",
+      "category": "Food"
+    }
+  ]
+]
+  

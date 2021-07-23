@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1350px;
+  margin: 30px auto 0;
+}
+
+.rsschool-logo {
+  width: 100px;
+  height: auto;
+}
+
+.github-logo {
+  width: 45px;
+  height: auto;
+}
+
+.student {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+@media (max-width: 1430px) {
+  .footer {
+      max-width: 1000px;
+  }
+  };
+  
+  @media (max-width: 1080px) {
+  .footer {
+      max-width: 650px;
+  }
+  };
+  
+  @media (max-width: 730px) {
+  .footer {
+      max-width: 300px;
+  }
+  };
